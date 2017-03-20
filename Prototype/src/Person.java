@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//
 public class Person implements Cloneable{
 	// ĞÕÃû
 	private String name;
