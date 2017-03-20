@@ -24,8 +24,12 @@ public class MainClass {
 		Fruit apple = FruitFactory.getFruit("Apple");
 		Fruit banana = FruitFactory.getFruit("Banana");
 		Fruit mango = FruitFactory.getFruit("Mango");
+		Fruit orange = FruitFactory.getFruit("Orange");
+		
 		apple.get();
 		banana.get();
 		mango.get();
+		orange.get();
+		
 	}
 }
