@@ -1,7 +1,7 @@
 
 public abstract class Banana implements Fruit{
 	/*
-	 * 采集
+	 * 采集  ss
 	 */
 	public abstract void get();
 }
