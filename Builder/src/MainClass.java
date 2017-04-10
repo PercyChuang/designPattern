@@ -10,7 +10,7 @@ public class MainClass {
 		
 		
 		//由工程队来修
-		HouseBuilder builder = new GongyuBuilder();
+		HouseBuilder builder = new Mybuilder();// new GongyuBuilder();
 		//设计者来做
 		HouseDirector director = new HouseDirector();
 		director.makeHouse(builder);
@@ -19,6 +19,7 @@ public class MainClass {
 		System.out.println(house.getFloor());
 		System.out.println(house.getWall());
 		System.out.println(house.getHousetop());
+		
 	}
 
 }
