@@ -41,12 +41,13 @@ public class MainClass {
 		System.out.println(person2.getFriends());
 		
 		//实际的开发过程中用BeanUtils来解决所有的问题。
-		/*CopyOfPerson c = new CopyOfPerson();
+		CopyOfPerson c = new CopyOfPerson();
+		System.out.println(c.toString());
 		try {
             BeanUtils.copyProperties(c, person2);
         } catch (Exception e) {
             e.printStackTrace();
         }
-		System.out.println(c.toString());*/
+		System.out.println(c.toString());
 	}
 }
