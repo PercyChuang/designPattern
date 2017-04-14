@@ -22,7 +22,7 @@ public class Person extends Observable {
 	public void setSex(String sex) {
 		this.sex = sex;
 		this.setChanged();
-		this.notifyObservers();
+		this.notifyObservers();//默认是传的this
 	}
 
 	public int getAge() {
